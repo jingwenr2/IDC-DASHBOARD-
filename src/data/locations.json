@@ -1,0 +1,42 @@
+[
+  {
+    "id": "back-room",
+    "name": "The Back Room",
+    "category": "bites",
+    "lat": 40.7197,
+    "lng": -73.9888,
+    "address": "102 Norfolk St, New York, NY",
+    "image": "/images/back-room.jpg",
+    "description": "A 1920s speakeasy on the Lower East Side that still serves cocktails in teacups, hidden behind an unmarked door. The room feels tucked away and intimate, with vintage spirit and a quiet confidence. It’s a taste of old Manhattan culture through a modern young woman’s night out."
+  },
+  {
+    "id": "prison-ship-martyrs",
+    "name": "Prison Ship Martyrs' Monument",
+    "category": "landmarks",
+    "lat": 40.6905,
+    "lng": -73.9756,
+    "address": "Fort Greene Park, Brooklyn",
+    "image": "/images/prison-ship-martyrs.jpg",
+    "description": "A 149-foot Doric column honoring 11,500 Americans who died on British prison ships during the Revolutionary War. The monument is a quiet, powerful landmark for reflection. It’s a solemn stop in Brooklyn that connects the city’s present with young women who care about history and memory."
+  },
+  {
+    "id": "maleeha-cafe",
+    "name": "Maleeha Cafe",
+    "category": "girls",
+    "lat": 40.725,
+    "lng": -73.995,
+    "address": "Lower East Side, New York, NY",
+    "image": "/images/maleeha-cafe.jpg",
+    "description": "A women-owned Pakistani cafe creating space for community, pastries, and chai in NYC. It blends soft hospitality with bold conversation and comfort food. The cafe feels both homey and adventurous, offering a welcome pause for friends and creatives."
+  },
+  {
+    "id": "happy-medium",
+    "name": "Happy Medium",
+    "category": "hangs",
+    "lat": 40.7128,
+    "lng": -73.9938,
+    "address": "49 Market St, New York, NY",
+    "image": "/images/happy-medium.jpg",
+    "description": "An arts club in Chinatown where you order watercolors and friendship bracelets off an art cafe menu. Pottery, workshops, and crafty afternoons with friends make it feel playful and alive. It’s a creative hangout built for making, sharing, and discovering new local energy."
+  }
+]
