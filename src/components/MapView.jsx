@@ -1,46 +1,54 @@
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import L from 'leaflet'
-import LocationPopup from './LocationPopup'
 
-function createPinIcon(color) {
-  return L.divIcon({
-    className: 'custom-pin-icon',
-    html: `<span style="background:${color};"></span>`,
-    iconSize: [24, 24],
-    iconAnchor: [12, 12],
-    popupAnchor: [0, -14],
-  })
-}
+function MapView({ locations }) {
+  const mapCenter = [40.7128, -73.9858]
 
-function MapView({ locations, categories }) {
+  const createPinIcon = (color) => {
+    return L.divIcon({
+      className: 'custom-location-pin',
+      html: `<div style="background: ${color}; width: 32px; height: 32px; border-radius: 50%; border: 3px solid white; box-shadow: 0 8px 16px rgba(0,0,0,0.2);"></div>`,
+      iconSize: [32, 32],
+      iconAnchor: [16, 16],
+      popupAnchor: [0, -20],
+    })
+  }
+
+  const categoryColors = {
+    eats: '#e86180',
+    legacy: '#c19bd3',
+    sisterly: '#f5c8dc',
+    rec: '#f1d4b8',
+  }
+
   return (
-    <div className="map-shell">
+    <div className="map-wrapper">
       <MapContainer
-        center={[40.7128, -73.9858]}
+        center={mapCenter}
         zoom={12}
         scrollWheelZoom={false}
-        zoomControl={true}
-        className="map-container"
+        className="interactive-map"
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-
-        {locations.map((location) => {
-          const category = categories[location.category]
-          return (
-            <Marker
-              key={location.id}
-              position={[location.lat, location.lng]}
-              icon={createPinIcon(category.color)}
-            >
-              <Popup>
-                <LocationPopup location={location} category={category} />
-              </Popup>
-            </Marker>
-          )
-        })}
+        {locations.map((location) => (
+          <Marker
+            key={location.name}
+            position={[location.lat, location.lng]}
+            icon={createPinIcon(categoryColors[location.category] || '#e86180')}
+          >
+            <Popup className="location-popup">
+              <div className="popup-content">
+                <h4>{location.name}</h4>
+                <p className="popup-category">{location.categoryLabel}</p>
+                <p className="popup-address">{location.location}</p>
+                <p className="popup-description">{location.description}</p>
+              </div>
+            </Popup>
+          </Marker>
+        ))}
       </MapContainer>
     </div>
   )

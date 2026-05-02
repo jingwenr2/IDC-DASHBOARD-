@@ -1,8 +1,8 @@
 function TeamRoles() {
   const team = [
-    { name: 'Gabby', role: 'Organizing and structuring the overall project', emoji: '📋' },
-    { name: 'Michelle', role: 'Visual design, map layout, and slides', emoji: '🎨' },
-    { name: 'Jenny', role: 'Research and cultural background storytelling', emoji: '📝' },
+    { name: 'Gabby', role: 'UI/UX frontend development and backend integration', emoji: '💻' },
+    { name: 'Michelle', role: 'Map location picking and curation', emoji: '📍' },
+    { name: 'Jenny', role: 'Storytelling and cultural background research', emoji: '📖' },
   ]
 
   return (
