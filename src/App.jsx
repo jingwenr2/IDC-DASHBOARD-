@@ -4,6 +4,7 @@ import About from './components/About.jsx'
 import CategoryCards from './components/CategoryCards.jsx'
 import LocationGrid from './components/LocationGrid.jsx'
 import MapBoard from './components/MapBoard.jsx'
+import RecommendForm from './components/RecommendForm.jsx'
 import TeamRoles from './components/TeamRoles.jsx'
 import { categories, locations } from './data/locations.js'
 
@@ -15,6 +16,7 @@ function App() {
       <About />
       <CategoryCards categories={categories} />
       <LocationGrid locations={locations} categories={categories} />
+      <RecommendForm />
       <MapBoard locations={locations} />
       <TeamRoles />
       <footer className="footer-bar">

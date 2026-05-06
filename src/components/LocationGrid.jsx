@@ -54,7 +54,7 @@ function LocationGrid({ locations, categories }) {
         {filtered.map((location) => (
           <article key={location.name} className="location-card">
             <div className="photo-polaroid">
-              <div className="photo-placeholder">{location.emoji}</div>
+              <img src={location.imageUrl} alt={location.name} className="polaroid-image" />
               <span className="polaroid-label">{location.categoryLabel}</span>
             </div>
             <div className="location-card-body">
@@ -81,9 +81,19 @@ function LocationGrid({ locations, categories }) {
                   </span>
                 ))}
               </div>
-              <a className="map-button" href="#map">
-                Open Map
-              </a>
+              <div className="location-actions">
+                <a href={location.mapsUrl} target="_blank" rel="noopener noreferrer" className="action-link maps-link">
+                  📍 Maps
+                </a>
+                {location.instagramHandle && (
+                  <a href={`https://instagram.com/${location.instagramHandle}`} target="_blank" rel="noopener noreferrer" className="action-link insta-link">
+                    📸 Instagram
+                  </a>
+                )}
+                <a className="action-link map-button" href="#map">
+                  🗺️ View on Map
+                </a>
+              </div>
             </div>
           </article>
         ))}
