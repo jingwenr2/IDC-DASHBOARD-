@@ -3,6 +3,7 @@ import { useMemo, useState } from 'react'
 function LocationGrid({ locations, categories }) {
   const [active, setActive] = useState('all')
   const [saved, setSaved] = useState([])
+  const [imageErrors, setImageErrors] = useState({})
 
   const categoryOptions = useMemo(
     () => [
@@ -27,6 +28,10 @@ function LocationGrid({ locations, categories }) {
     setSaved((current) =>
       current.includes(name) ? current.filter((item) => item !== name) : [...current, name],
     )
+  }
+
+  const handleImageError = (locationName) => {
+    setImageErrors((prev) => ({ ...prev, [locationName]: true }))
   }
 
   return (
@@ -54,7 +59,16 @@ function LocationGrid({ locations, categories }) {
         {filtered.map((location) => (
           <article key={location.name} className="location-card">
             <div className="photo-polaroid">
-              <img src={location.imageUrl} alt={location.name} className="polaroid-image" />
+              {imageErrors[location.name] ? (
+                <div className="photo-placeholder">{location.emoji}</div>
+              ) : (
+                <img
+                  src={location.imageUrl}
+                  alt={location.name}
+                  className="polaroid-image"
+                  onError={() => handleImageError(location.name)}
+                />
+              )}
               <span className="polaroid-label">{location.categoryLabel}</span>
             </div>
             <div className="location-card-body">

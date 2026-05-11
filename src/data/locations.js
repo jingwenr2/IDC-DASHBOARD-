@@ -94,7 +94,7 @@ const locations = [
     tag: 'Art Cafe',
     mapsUrl: 'https://www.google.com/maps/search/Happy+Medium+Chinatown+49+Market+St/',
     instagramHandle: 'happymediumnyc',
-    imageUrl: 'https://images.unsplash.com/photo-1530522455947-a94c409b6b93?w=400&h=300&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=400&h=300&fit=crop',
   },
   {
     name: 'Women\'s Rights Pioneers Monument',
@@ -110,7 +110,7 @@ const locations = [
     tags: ['history', 'NYC must go', 'women-centered'],
     tag: 'Iconic Monument',
     mapsUrl: 'https://www.google.com/maps/search/Women\'s+Rights+Pioneers+Monument+Central+Park/',
-    imageUrl: 'https://images.unsplash.com/photo-1591696331096-56a41215e313?w=400&h=300&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=400&h=300&fit=crop',
   },
   {
     name: 'Gather Cafe',
