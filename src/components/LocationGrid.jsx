@@ -54,7 +54,14 @@ function LocationGrid({ locations, categories }) {
         {filtered.map((location) => (
           <article key={location.name} className="location-card">
             <div className="photo-polaroid">
-              <img src={location.imageUrl} alt={location.name} className="polaroid-image" />
+              <img
+                src={location.image}
+                alt={location.name}
+                className="place-image"
+                onError={(e) => {
+                  e.currentTarget.src = '/images/places/nyc-placeholder.jpg'
+                }}
+              />
               <span className="polaroid-label">{location.categoryLabel}</span>
             </div>
             <div className="location-card-body">

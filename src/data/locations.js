@@ -45,7 +45,7 @@ const locations = [
     tag: 'Cozy Nights',
     mapsUrl: 'https://www.google.com/maps/search/The+Back+Room+102+Norfolk+St+New+York/',
     instagramHandle: 'thebackroom_nyc',
-    imageUrl: 'https://images.unsplash.com/photo-1470337458703-46ad1aacf816?w=500&h=400&fit=crop',
+    image: '/images/places/the-back-room.jpg',
   },
   {
     name: 'Prison Ship Martyrs\' Monument',
@@ -61,7 +61,7 @@ const locations = [
     tags: ['history', 'photo spot', 'study date'],
     tag: 'Quiet History',
     mapsUrl: 'https://www.google.com/maps/search/Prison+Ship+Martyrs+Monument+Fort+Greene+Park/',
-    imageUrl: 'https://images.unsplash.com/photo-1518156677180-95a2893f3e9f?w=500&h=400&fit=crop',
+    image: '/images/places/prison-ship-martyrs-monument.jpg',
   },
   {
     name: 'Maleeha Cafe',
@@ -77,7 +77,7 @@ const locations = [
     tags: ['cozy', 'women-centered', 'community'],
     tag: 'Sisterly Spot',
     mapsUrl: 'https://www.google.com/maps/search/Maleeha+Cafe+Bronx+1807+Hunt+Ave/',
-    imageUrl: 'https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=500&h=400&fit=crop',
+    image: '/images/places/maleeha-cafe.jpg',
   },
   {
     name: 'Happy Medium',
@@ -94,7 +94,7 @@ const locations = [
     tag: 'Art Cafe',
     mapsUrl: 'https://www.google.com/maps/search/Happy+Medium+Chinatown+49+Market+St/',
     instagramHandle: 'happymediumnyc',
-    imageUrl: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=500&h=400&fit=crop',
+    image: '/images/places/happy-medium.jpg',
   },
   {
     name: 'Women\'s Rights Pioneers Monument',
@@ -110,7 +110,7 @@ const locations = [
     tags: ['history', 'NYC must go', 'women-centered'],
     tag: 'Iconic Monument',
     mapsUrl: 'https://www.google.com/maps/search/Women\'s+Rights+Pioneers+Monument+Central+Park/',
-    imageUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=400&fit=crop',
+    image: '/images/places/womens-rights-pioneers-monument.jpg',
   },
   {
     name: 'Gather Cafe',
@@ -127,7 +127,7 @@ const locations = [
     tag: 'Warm Cafe',
     mapsUrl: 'https://www.google.com/maps/search/Gather+Cafe+54+Orchard+St+New+York/',
     instagramHandle: 'gathercafenyc',
-    imageUrl: 'https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=500&h=400&fit=crop',
+    image: '/images/places/gather-cafe.jpg',
   },
 ]
 
