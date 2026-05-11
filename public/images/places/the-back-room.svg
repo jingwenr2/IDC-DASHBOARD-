@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a1810;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a0f0a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="400" fill="url(#bg1)"/>
+  <circle cx="150" cy="120" r="50" fill="#d4a574" opacity="0.8"/>
+  <circle cx="350" cy="180" r="40" fill="#c9945a" opacity="0.7"/>
+  <rect x="50" y="200" width="400" height="2" fill="#8b6f47" opacity="0.6"/>
+  <text x="250" y="320" font-family="Georgia, serif" font-size="28" fill="#d4a574" text-anchor="middle" font-style="italic">The Back Room</text>
+  <text x="250" y="360" font-family="Arial" font-size="14" fill="#b8956f" text-anchor="middle">Speakeasy • Lower East Side</text>
+</svg>

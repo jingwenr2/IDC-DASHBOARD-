@@ -45,7 +45,7 @@ const locations = [
     tag: 'Cozy Nights',
     mapsUrl: 'https://www.google.com/maps/search/The+Back+Room+102+Norfolk+St+New+York/',
     instagramHandle: 'thebackroom_nyc',
-    image: '/images/places/the-back-room.jpg',
+    image: '/images/places/the-back-room.svg',
   },
   {
     name: 'Prison Ship Martyrs\' Monument',
@@ -61,7 +61,7 @@ const locations = [
     tags: ['history', 'photo spot', 'study date'],
     tag: 'Quiet History',
     mapsUrl: 'https://www.google.com/maps/search/Prison+Ship+Martyrs+Monument+Fort+Greene+Park/',
-    image: '/images/places/prison-ship-martyrs-monument.jpg',
+    image: '/images/places/prison-ship-martyrs-monument.svg',
   },
   {
     name: 'Maleeha Cafe',
@@ -77,7 +77,7 @@ const locations = [
     tags: ['cozy', 'women-centered', 'community'],
     tag: 'Sisterly Spot',
     mapsUrl: 'https://www.google.com/maps/search/Maleeha+Cafe+Bronx+1807+Hunt+Ave/',
-    image: '/images/places/maleeha-cafe.jpg',
+    image: '/images/places/maleeha-cafe.svg',
   },
   {
     name: 'Happy Medium',
@@ -94,7 +94,7 @@ const locations = [
     tag: 'Art Cafe',
     mapsUrl: 'https://www.google.com/maps/search/Happy+Medium+Chinatown+49+Market+St/',
     instagramHandle: 'happymediumnyc',
-    image: '/images/places/happy-medium.jpg',
+    image: '/images/places/happy-medium.svg',
   },
   {
     name: 'Women\'s Rights Pioneers Monument',
@@ -110,7 +110,7 @@ const locations = [
     tags: ['history', 'NYC must go', 'women-centered'],
     tag: 'Iconic Monument',
     mapsUrl: 'https://www.google.com/maps/search/Women\'s+Rights+Pioneers+Monument+Central+Park/',
-    image: '/images/places/womens-rights-pioneers-monument.jpg',
+    image: '/images/places/womens-rights-pioneers-monument.svg',
   },
   {
     name: 'Gather Cafe',
@@ -127,7 +127,7 @@ const locations = [
     tag: 'Warm Cafe',
     mapsUrl: 'https://www.google.com/maps/search/Gather+Cafe+54+Orchard+St+New+York/',
     instagramHandle: 'gathercafenyc',
-    image: '/images/places/gather-cafe.jpg',
+    image: '/images/places/gather-cafe.svg',
   },
 ]
 

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8d5c4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4a574;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="400" fill="url(#bg5)"/>
+  <polygon points="250,80 300,140 250,140 300,200 250,200 300,260 250,260 300,320 200,320 250,260 200,260 250,200 200,200 250,140 200,140" fill="#8b6f47" opacity="0.7"/>
+  <polygon points="250,100 290,150 250,150 290,210 250,210 290,270 230,270 250,210 210,210 250,150 210,150" fill="#a0826d"/>
+  <text x="250" y="335" font-family="Arial, sans-serif" font-size="20" fill="#6b5344" text-anchor="middle" font-weight="bold">Women's Rights Monument</text>
+  <text x="250" y="365" font-family="Arial" font-size="13" fill="#8b6f47" text-anchor="middle">Central Park • NYC</text>
+</svg>

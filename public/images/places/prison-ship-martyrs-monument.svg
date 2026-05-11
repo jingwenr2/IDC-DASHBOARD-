@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#87ceeb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a90b8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="400" fill="url(#bg2)"/>
+  <polygon points="250,50 320,180 420,180 350,240 380,370 250,310 120,370 150,240 80,180 180,180" fill="#ffd700"/>
+  <polygon points="250,80 300,170 390,170 330,220 360,310 250,260 140,310 170,220 110,170 200,170" fill="#ffed4e"/>
+  <text x="250" y="340" font-family="Arial, sans-serif" font-size="20" fill="#2a5a8a" text-anchor="middle" font-weight="bold">Prison Ship Monument</text>
+  <text x="250" y="370" font-family="Arial" font-size="14" fill="#3a6a9a" text-anchor="middle">Memorial • Brooklyn</text>
+</svg>

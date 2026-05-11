@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5deb3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6c99d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="400" fill="url(#bg3)"/>
+  <rect x="80" y="100" width="340" height="200" fill="#c41e3a" rx="10"/>
+  <circle cx="150" cy="160" r="30" fill="#fff8dc"/>
+  <circle cx="250" cy="140" r="35" fill="#fff8dc"/>
+  <circle cx="350" cy="170" r="32" fill="#fff8dc"/>
+  <text x="250" y="330" font-family="Arial, sans-serif" font-size="22" fill="#8b4c5c" text-anchor="middle" font-weight="bold">Maleeha Cafe</text>
+  <text x="250" y="365" font-family="Arial" font-size="14" fill="#6b3c4c" text-anchor="middle">Women-Centered • Bronx</text>
+</svg>
