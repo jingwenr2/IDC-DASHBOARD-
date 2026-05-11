@@ -33,7 +33,7 @@ function LocationGrid({ locations, categories }) {
     <section className="locations-panel" id="locations">
       <div className="section-header">
         <span className="section-marker">Location feed</span>
-        <h2>Saved places that feel like a Xiaohongshu post</h2>
+        <h2>Curated NYC spaces for beauty, belonging, and women-centered experiences</h2>
       </div>
 
       <div className="filter-row">
@@ -42,7 +42,6 @@ function LocationGrid({ locations, categories }) {
             key={option.key}
             type="button"
             className={`filter-pill ${active === option.key ? 'active' : ''}`}
-            style={{ borderColor: option.color }}
             onClick={() => setActive(option.key)}
           >
             {option.label}
