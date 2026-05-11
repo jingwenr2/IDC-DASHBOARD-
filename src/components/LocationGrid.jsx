@@ -55,11 +55,11 @@ function LocationGrid({ locations, categories }) {
           <article key={location.name} className="location-card">
             <div className="photo-polaroid">
               <img
-                src={location.image}
+                src={location.image || "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"}
                 alt={location.name}
                 className="place-image"
                 onError={(e) => {
-                  e.currentTarget.src = '/images/places/nyc-placeholder.jpg'
+                  e.currentTarget.src = "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4";
                 }}
               />
               <span className="polaroid-label">{location.categoryLabel}</span>
